@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.custom-code-mirror .cm-content {
+  font-size: 18px; 
+  background-color: #212529;
+  padding: 25px;
+}
+
+.custom-code-mirror {
+  padding: 10px; 
+  background-color: #212529;
+}
+
+.custom-code-mirror .cm-gutter {
+  background-color: #212529; 
+}
+
+/* Change background color of first line */
+.custom-code-mirror .cm-line:first-child {
+  background-color: #212529;  /* Change the background color of the first line */
+}
+
+.custom-code-mirror .cm-gutter .cm-lineNumber:first-child {
+  color: #2675c4; /* Change the color of the first line number */
+}
+
+.gradientBorder {
+  position: relative;
+  padding: 5px;
+  border-radius: 8px !important;
+}
+
+.gradientBorder:hover {
+  border-image: linear-gradient(to bottom, white 0%, #939496 100%) 1;
+  border-top: 4px solid transparent;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-radius: 8px !important;
+}
+
+.gradientBorder:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-top: 4px solid white; /* White top border */
+  border-left: 4px solid transparent; /* Transparent left border */
+  border-right: 4px solid transparent; /* Transparent right border */
+  border-radius: 8px !important; 
+  background: linear-gradient(to bottom, white 0%, #939496 100%);
+  -webkit-mask: linear-gradient(to bottom, white 0%, #939496 100%);
+  mask: linear-gradient(to bottom, white 0%, #939496 100%);
+  z-index: -1;
+  pointer-events: none;
+}
+
