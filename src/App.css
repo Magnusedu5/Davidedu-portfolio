@@ -50,7 +50,7 @@
 }
 
 .custom-code-mirror .cm-gutter .cm-lineNumber:first-child {
-  color: #2675c4; /* Change the color of the first line number */
+  color: #2675c4; 
 }
 
 .gradientBorder {
@@ -85,3 +85,14 @@
   pointer-events: none;
 }
 
+
+@media (max-width: 768px) {
+  .custom-code-mirror .cm-content {
+    font-size: 12px; 
+    background-color: #212529;
+    padding: 18px;
+  }
+}
+
+
+  

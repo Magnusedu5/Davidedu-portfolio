@@ -37,11 +37,11 @@ const CodeEditorApp = () => {
   };
 
   return (
-    <div className=" w-7/12 m-auto flex text-white my-14">
+    <div className="2xl:w-9/12 lg:w-10/12 md:w-11/12 m-auto flex text-white my-14">
       {/* Main Content */}
-      <div className="flex-1 flex flex-col">
+      <div className="flex-1 flex flex-col container">
         {/* Tabs */}
-        <div className=" flex items-center">
+        <div className=" w-11/12 m-auto flex items-center">
           {codeEditorData.map((file) => (
             <div
               key={file.name}
@@ -59,7 +59,7 @@ const CodeEditorApp = () => {
         </div>
 
         {/* Code Editor with Syntax Highlighting */}
-        <div className="flex-1 bg-[#212529] ">
+        <div className=" w-11/12 m-auto bg-[#212529] ">
           <CodeMirror
             value={editorContent}
             height="100%"
@@ -71,7 +71,7 @@ const CodeEditorApp = () => {
         </div>
 
         {/* Bottom Status Bar */}
-        <div className="bg-[#2C3034] flex items-center justify-end gap-4 text-xs font-bold px-4 py-2 text-[#808385]">
+        <div className="bg-[#2C3034] w-11/12 m-auto flex items-center justify-end gap-4 text-xs font-bold px-4 py-2 text-[#808385]">
           <span>LF</span>
           <span>Line 5:36</span>
           <span>UTF8</span>

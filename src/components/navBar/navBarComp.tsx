@@ -8,7 +8,7 @@ const NavBarComp = () => {
 
   return (
     <div className="fixed top-0 left-0 right-0 z-50">
-    <div className="flex gap-10 my-10 bg-[#212529] border-r-2 border-l-2 border-t-2 border-[#3B3B3B] text-center py-4 px-8 w-fit m-auto rounded-2xl z-50">
+    <div className="flex justify-center md:gap-10 gap-4 my-10 bg-[#212529] border-r-2 border-l-2 border-t-2 border-[#3B3B3B] text-center py-4 px-8 md:w-fit w-10/12 m-auto rounded-2xl z-50">
       {Object.entries(routes).map(([key, path]) => {
         const isActive = location.pathname === path;
         return (
