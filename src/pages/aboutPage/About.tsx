@@ -37,7 +37,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="absolute 2xl:left-3/7 lg:left-[40%] md:left-2/6 left-14 flex justify-center gap-2 bg-[#202225]/60 backdrop-blur-transparent rounded-2xl md:p-4 p-3 w-[16rem] rotate-[-5deg] z-30 border-r border-l border-t border-[#3B3B3B]">
+      <div className="absolute 2xl:left-3/7 lg:left-[40%] md:left-2/6 left-14 flex justify-center gap-2 bg-[#202225]/60 backdrop-blur-transparent rounded-2xl md:p-4 p-3 w-[16rem] rotate-[-6deg] z-30 border-r border-l border-t border-[#3B3B3B]">
         <img src={Istar} alt="" />
         <span className="text-white">4 Years of Experience</span>
         <img src={IexperienceIcon} alt="" />
