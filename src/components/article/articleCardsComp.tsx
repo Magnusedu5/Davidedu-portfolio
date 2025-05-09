@@ -9,13 +9,13 @@ const ArticleCardsComp: React.FC<ArticleCardsProps> = ({
   return (
     <div className="">
       <div className="flex justify-between items-end mt-10 mb-2">
-        <div className="flex gap-4">
+        <div className="flex items-end gap-4">
           <div>
             <img src={IrectangleTwo} alt="" className="w-16 h-16" />
           </div>
           <div>
             <h4 className="text-base font-normal text-[#DEE2E6]">{title}</h4>
-            <h6 className="text-3xl font-medium text-white">{description}</h6>
+            <h6 className="md:text-3xl text-lg font-medium text-white">{description}</h6>
           </div>
         </div>
         <div>

@@ -9,16 +9,16 @@ const Projects = () => {
     <div>
       <NavBarComp />
 
-      <div className="w-8/12 m-auto mt-44">
-        <div className="w-8/12 m-auto text-center my-3">
-          <h1 className="text-4xl font-medium text-[#FFFFFF]">Selected Projects</h1>
-          <p className="text-base font-normal mt-3">
+      <div className="2xl:w-6/12 lg:w-8/12 w-11/12 m-auto mt-44">
+        <div className="md:w-8/12 w-11/12 m-auto text-center my-3">
+          <h1 className="md:text-4xl text-2xl font-medium text-[#FFFFFF]">Selected Projects</h1>
+          <p className="md:text-base text-sm font-normal mt-3">
           These are some outstanding projects I have worked on for organizations and clients
           </p>
         </div>
 
         {/* project cards */}
-        <div className="w-full m-auto flex justify-between">
+        <div className="w-full gap-4 m-auto md:flex justify-between">
           <ProjectCardComp
             title="Project 1"
             description="This is a project description"

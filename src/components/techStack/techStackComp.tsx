@@ -3,7 +3,7 @@ import { stackData } from '../../utils/data'
 const TechStackComp = () => {
   return (
     <div>
-         <div className="text-center my-3">
+         <div className="text-center my-8">
         <h1 className="md:text-4xl text-2xl font-medium text-[#FFFFFF]">
           Technical Stacks
         </h1>
