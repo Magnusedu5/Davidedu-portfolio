@@ -2,8 +2,8 @@ import { Igithub, Ilinkedin } from "../../utils/icons.utils";
 
 const FooterComp = () => {
   return (
-    <div className="border-t border-t-[#3B3B3B] w-full lg:px-32 md:px-8 px-4 py-14 md:grid grid-cols-5">
-      <div className="col-span-2">
+    <div className="md:w-11/12 2xl:w-7/12 w-11/12 m-auto py-14 md:grid 2xl:grid-cols-7 md:grid-cols-5">
+      <div className="2xl:col-span-3 md:col-span-2">
         <div className="md:mb-14 mb-6">
             <h1 className="lg:text-4xl md:text-2xl text-xl font-medium text-[#F8F9FA]">David Obazi-Ota Edu</h1>
             <p className="text-base font-normal text-[#DEE2E6] md:mt-2">Software developer</p>
@@ -16,7 +16,7 @@ const FooterComp = () => {
             </div>
         </div>
       </div>
-      <div className="col-span-2">
+      <div className="2xl:col-span-3 md:col-span-2">
         <div className="md:mb-14 mb-6">
             <h3 className="text-base font-normal text-[#DEE2E6]">Contact Me:</h3>
             <h2 className="lg:text-3xl md:text-2xl text-xl font-medium text-[#F8F9FA] md:mt-2">+234 816 571 6036</h2>

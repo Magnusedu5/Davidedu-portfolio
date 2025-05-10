@@ -12,7 +12,7 @@ const Landing = () => {
       <NavBarComp />
 
       {/* Hero section */}
-      <div className="lg:w-10/12 w-11/12 m-auto md:mt-44 mt-32">
+      <div className="2xl:w-7/12 lg:w-10/12 w-11/12 m-auto md:mt-44 mt-32">
         <div className="flex justify-start gap-4 items-center">
           <img src={ImainCover} className="md:w-20 w-14 md:h-20" alt="Cover Photo" />
           <h1 className="lg:text-7xl md:text-5xl text-2xl font-bold text-white">SOFTWARE DEVELOPER</h1>
@@ -51,7 +51,7 @@ const Landing = () => {
         </p>
       </div>
       {/* project cards */}
-      <div className="2xl:w-7/12 lg:w-9/12 w-11/12 m-auto md:flex md:gap-6 justify-between">
+      <div className="2xl:w-5/12 lg:w-9/12 w-11/12 m-auto md:flex md:gap-6 justify-between">
         <ProjectCardComp
           title="Project 1"
           description="This is a project description"

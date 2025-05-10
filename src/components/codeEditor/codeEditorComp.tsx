@@ -37,7 +37,7 @@ const CodeEditorApp = () => {
   };
 
   return (
-    <div className="2xl:w-9/12 lg:w-10/12 md:w-11/12 m-auto flex text-white my-14">
+    <div className="2xl:w-6/12 lg:w-10/12 md:w-11/12 m-auto flex text-white my-14">
       {/* Main Content */}
       <div className="flex-1 flex flex-col container">
         {/* Tabs */}
